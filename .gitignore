@@ -1,0 +1,10 @@
+*.sublime-*
+dist/
+node_modules/
+.env.development
+.aws-sam/
+packaged.yaml
+*compiled.js
+.cache
+.vscode
+.Trash-1000

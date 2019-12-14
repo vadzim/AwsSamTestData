@@ -1,0 +1,23 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+
+Resources:
+  #
+  #
+  lambdaX:
+    Type: AWS::Serverless::Function
+    Properties:
+      FunctionName: lambdaX
+      CodeUri: src
+      Handler: X.handlerX
+      Runtime: nodejs10.x
+
+  #
+  #
+  lambdaY:
+    Type: AWS::Serverless::Function
+    Properties:
+      FunctionName: lambdaY
+      CodeUri: src
+      Handler: Y.handlerY
+      Runtime: nodejs10.x
