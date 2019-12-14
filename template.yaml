@@ -19,5 +19,5 @@ Resources:
     Properties:
       FunctionName: lambdaY
       CodeUri: src
-      Handler: Y.handlerY
+      Handler: Z.handlerY
       Runtime: nodejs10.x
